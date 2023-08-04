@@ -1,0 +1,314 @@
+.sidebar{
+    float: left;
+    width: 270px;
+    height: 1095px;
+    background-color: #f99aaa;
+}
+
+body{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#contacto{
+    font-family:serif;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+#box-sobre{
+    border: solid white 1px;
+    background-color: white;
+    width: 75px;
+    height: 30px;
+    -webkit-border-radius:10px;
+    border-radius: 10px;
+    position: relative;
+    right: 6px;
+    
+}
+.material-symbols-outlined{
+    position: relative;
+    background-color: #fec8d8;
+}
+
+#correo{
+    position: relative;
+    margin-top: 4px;
+    left: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+#box-telefono{
+    border: solid white 1px;
+    background-color: white;
+    width: 75px;
+    height: 30px;
+    -webkit-border-radius:10px;
+    border-radius: 10px;
+    position: relative;
+    right: 6px;
+    
+}
+#telefono{
+    position: relative;
+    margin-top: 4px;
+    left: 10px;
+    font-size: 18px;
+    color: white;
+}
+.material-symbols-rounded{
+    position: relative;
+    left: 25px;
+    background-color:#fec8d8;
+
+}
+
+#box-ubicacion{
+    border: solid white 1px;
+    background-color: white;
+    width: 75px;
+    height: 30px;
+    -webkit-border-radius:10px;
+    border-radius: 10px;
+    position: relative;
+    right: 6px;
+    
+}
+
+#ubicacion{
+    position: relative;
+    margin-top: 4px;
+    left: 10px;
+    font-size: 18px;
+    color: white;
+}
+.material-symbols-outlined{
+    position: relative;
+    left: 25px;
+    background-color:#fec8d8;
+
+}
+
+#box-github{
+    border: solid white 1px;
+    background-color: white;
+    width: 75px;
+    height: 30px;
+    -webkit-border-radius:10px;
+    border-radius: 10px;
+    position: relative;
+    right: 6px;
+    
+}
+
+#github{
+    position: relative;
+    margin-top: 4px;
+    left: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.material-symbols-rounded{
+    position: relative;
+    left: 25px;
+    background-color:#fec8d8;
+
+}
+
+.enlaces{
+    color: white;
+}
+
+#habilidades{
+    font-family:serif;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+.palabras{
+    font-size: 15px;
+    text-align:justify;
+}
+
+.barra{
+    width: 200px;
+    height: 9px;
+    background-color:  #fec8d8;
+    border-radius: 10px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.4)
+}
+
+.progreso{
+    width: var(--w);
+    height: 100%;
+    background-color:  rgb(231, 117, 187);
+    border-radius: 10px;
+    animation:Aumentar 5s ease;
+}
+
+@keyframes Aumentar{
+    0% {width:0%;}
+    100%{width: var(--w)}
+}
+
+.content{
+    float: left;
+    width: 689px;
+    height: 1095px;
+    background-color: #ede8df;
+    justify-content: center;
+}
+
+#nombrealeja{
+    font-size:70px;
+    text-align:center;
+    color: black;
+    margin-bottom:0px;
+    margin-top: 40px;
+    position: relative;
+    text-align: center;
+}
+
+#apellidos{
+    font-size:80px;
+    color: #f1889b;
+    margin-bottom: 10px;
+    margin-top:1px;
+    position: relative;
+    text-align: center;
+}
+
+h3{
+    color: #f1889b;
+    position: relative;
+    left:40px;
+    margin-bottom: 1px;
+    font-size: 35px;
+
+}
+
+p{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 80px;
+    margin-top: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#info-personal{
+    border: solid #f1889b 1px;
+    background-color:#f1889b;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    left:40px;
+
+}
+
+#info-letras{
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+#educacion{
+    border: solid #f1889b 1px;
+    background-color:#f1889b;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    left:40px;
+}
+
+#info-educacion{
+    color: white;
+    position: relative;
+    text-align: center;
+    
+}
+
+#experiencia{
+    border: solid #f1889b 1px;
+    background-color:#f1889b;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    left:40px;
+}
+
+#info-experiencia{
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+.oficios-contra{
+    position: relative;
+    left: 7%;
+    font-size: 20px;
+}
+
+/* .hobbies{
+    border: solid rgb(231, 117, 187)1px;
+    width: 10px;
+    display:flex;
+    height: 10px;
+    justify-content:center;
+    text-align: center;
+    background-color:rgb(231, 117, 187) ;
+
+} */
+
+.mini-container{
+    display:flex;
+    gap: 5px;
+    justify-content:space-around;
+    position: relative;
+    right: 25px;
+}
+
+.material-symbols-rounded{
+    position: relative;
+    left: 25px;
+    background-color: rgb(231, 117, 187);
+}
+
+.material-symbols-rounded{
+    position: relative;
+    left: 25px;
+    background-color: #fec8d8);
+}
+
+.material-symbols-rounded{
+    position: relative;
+    left: 25px;
+    background-color:#fec8d8;
+}
+
+.material-symbols-rounded{
+    position: relative;
+    left: 25px;
+    background-color: #fec8d8;
+}
+
+#hobbies-titulo{
+    font-family:serif;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    margin-top: 1px;
+
+}
