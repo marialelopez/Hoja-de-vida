@@ -3,6 +3,8 @@
     width: 270px;
     height: 1095px;
     background-color: #f99aaa;
+    margin-top: 45px;
+    margin-bottom: 50px;
 }
 
 body{
@@ -163,6 +165,8 @@ body{
     height: 1095px;
     background-color: #ede8df;
     justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 50px;
 }
 
 #nombrealeja{
@@ -259,17 +263,6 @@ p{
     left: 7%;
     font-size: 20px;
 }
-
-/* .hobbies{
-    border: solid rgb(231, 117, 187)1px;
-    width: 10px;
-    display:flex;
-    height: 10px;
-    justify-content:center;
-    text-align: center;
-    background-color:rgb(231, 117, 187) ;
-
-} */
 
 .mini-container{
     display:flex;
